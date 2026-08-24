@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs>
+<radialGradient id="bg">
+<stop stop-color="#24205b"/>
+<stop offset=".45" stop-color="#0d0b25"/>
+<stop offset="1" stop-color="#030309"/>
+</radialGradient>
+<radialGradient id="neb">
+<stop stop-color="#927dff" stop-opacity=".75"/>
+<stop offset=".45" stop-color="#3d2b9d" stop-opacity=".35"/>
+<stop offset="1" stop-color="#000" stop-opacity="0"/>
+</radialGradient>
+<filter id="blur">
+<feGaussianBlur stdDeviation="45"/>
+</filter>
+</defs>
+
+<rect width="1600" height="1000" fill="url(#bg)"/>
+
+<ellipse cx="850" cy="500"
+rx="600" ry="190"
+fill="url(#neb)"
+filter="url(#blur)"
+transform="rotate(-18 850 500)"/>
+
+<ellipse cx="800" cy="500"
+rx="500" ry="100"
+fill="none"
+stroke="#8c78ff"
+stroke-opacity=".22"
+stroke-width="3"
+transform="rotate(-18 800 500)"/>
+
+<g fill="#fff">
+<circle cx="100" cy="120" r="3"/>
+<circle cx="220" cy="420" r="2"/>
+<circle cx="340" cy="170" r="3"/>
+<circle cx="470" cy="760" r="2"/>
+<circle cx="610" cy="300" r="2"/>
+<circle cx="730" cy="100" r="3"/>
+<circle cx="900" cy="220" r="2"/>
+<circle cx="1050" cy="740" r="3"/>
+<circle cx="1200" cy="150" r="2"/>
+<circle cx="1320" cy="520" r="3"/>
+<circle cx="1480" cy="280" r="2"/>
+<circle cx="1400" cy="850" r="3"/>
+<circle cx="180" cy="850" r="2"/>
+</g>
+
+<g opacity=".65">
+<circle cx="400" cy="500" r="10" fill="#8f7cff"/>
+<circle cx="1100" cy="430" r="7" fill="#b5aaff"/>
+<circle cx="1280" cy="700" r="5" fill="#fff"/>
+</g>
+</svg>
